@@ -9,7 +9,7 @@ import {
 
 export default class ChatView extends Component {
   render() {
-    const channel = this.props.chatClient.channel('messaging', 'General');
+    const channel = this.props.chatClient.channel('livestream', 'General');
     channel.watch();
 
     return (
