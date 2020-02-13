@@ -1,0 +1,3 @@
+[submodule "server"]
+	path = server
+	url = git@github.com:nparsons08/stream-chat-api.git
